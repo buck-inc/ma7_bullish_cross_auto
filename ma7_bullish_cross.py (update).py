@@ -5,8 +5,8 @@ import pytz
 import requests
 
 # ===== CONFIG TELEGRAM =====
-BOT_TOKEN = "ISI_TOKEN_BOT_DISINI"
-CHAT_ID = "ISI_CHAT_ID_DISINI"
+BOT_TOKEN = ${{secret."ISI_TOKEN_BOT_DISINI"}}
+CHAT_ID = ${{secret."ISI_CHAT_ID_DISINI"}}
 
 # List top 30 coin USDT pair
 SYMBOLS = [
@@ -66,3 +66,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
