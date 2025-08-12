@@ -1,0 +1,1 @@
+# ma7_bullish_cross_auto
